@@ -3,11 +3,13 @@ import "./globals.css";
 import { ThemeProvider } from "./components/ThemeProvider";
 
 const geistSans = Geist({
-  variable: "--font-geist-sans"
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono"
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
 });
 
 export const metadata = {
