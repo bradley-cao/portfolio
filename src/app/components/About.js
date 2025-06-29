@@ -24,7 +24,7 @@ export default function About() {
       color: "bg-purple-500"
     },
     {
-      category: "Other Software Development Skills",
+      category: "Other SDE Skills",
       icon: Braces,
       skills: ["Version Control (Git)", "Agile Methodologies", "Unit Testing", "CI/CD", "Docker", "IP Networking"],
       color: "bg-yellow-500"
@@ -90,7 +90,7 @@ export default function About() {
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
               Outside of software engineering, I am an aspiring hobbyist photographer. I am also a semi-active competitive swimmer, swimming 
               on the GT club team. Some of my hobbies and interests include aviation and aerospace, so you might see me planespotting here and 
-              there :)
+              there.
             </p>
           </motion.div>
         </div>

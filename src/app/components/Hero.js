@@ -27,7 +27,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6">
-            <span className="text-gray-900 dark:text-white">Hi, I'm Bradley</span>
+            <span className="text-gray-900 dark:text-white">Hi, I&apos;m Bradley</span>
           </h1>
         </motion.div>
 
@@ -37,7 +37,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto"
         >
-          Software Engineering & Hobbyist Photography
+          Aspiring Software Engineer
+          {/* Software Engineering & Hobbyist Photography */}
         </motion.p>
 
         <motion.div
@@ -46,20 +47,20 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="flex flex-wrap justify-center gap-4 mb-12"
         >
-          <button
+          {/* <button
             onClick={() => document.querySelector("#engineering").scrollIntoView({ behavior: "smooth" })}
             className="relative px-8 py-3 text-white rounded-full font-medium transition-colors shadow-lg overflow-hidden border-2 border-blue-600 group cursor-pointer hover:bg-blue-600 hover:text-white"
           >
             <span className="relative z-10">Software Engineering</span>
             <span className="absolute left-0 top-0 h-full w-0 bg-blue-600 transition-all duration-300 group-hover:w-full z-0"></span>
-          </button>
-          <button
+          </button> */}
+          {/* <button
             onClick={() => document.querySelector("#photography").scrollIntoView({ behavior: "smooth" })}
             className="relative px-8 py-3 text-white rounded-full font-medium transition-colors shadow-lg overflow-hidden border-2 border-blue-600 group cursor-pointer"
           >
             <span className="relative z-10">Photograph Portfolio</span>
             <span className="absolute left-0 top-0 h-full w-0 bg-blue-600 transition-all duration-300 group-hover:w-full z-0"></span>
-          </button>
+          </button> */}
         </motion.div>
 
         {/* Social Links */}
