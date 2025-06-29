@@ -47,15 +47,17 @@ export default function Resume() {
       school: "Georgia Institute of Technology",
       location: "Atlanta, GA",
       period: "2024 - Present",
-      description: "Relevant coursework: Computer Systems, Data Structures and Algorithms, \
-                    Computer Systems and Networks, Intro to Blockchain"
+      description: "Relevant Coursework: Computer Systems, Data Structures and Algorithms, \
+                    Computer Systems and Networks, Intro to Blockchain, Intro to AI, Robotis and Perception",
+      honors: "Dean's List"
     },
     {
       degree: "Bachelor of Science in Computer Science",
       school: "University of Maryland, College Park",
       location: "College Park, MD",
       period: "2023 - 2024",
-      description: "Relevant coursework: Algorithms, Organization of Programming Languages"
+      description: "Relevant Coursework: Algorithms, Organization of Programming Languages, Discrete Structures",
+      honors: "Dean's List"
     },
     {
       degree: "Advanced Studies Diploma",
