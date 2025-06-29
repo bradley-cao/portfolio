@@ -48,7 +48,7 @@ export default function Resume() {
       location: "Atlanta, GA",
       period: "2024 - Present",
       description: "Relevant Coursework: Computer Systems, Data Structures and Algorithms, \
-                    Computer Systems and Networks, Intro to Blockchain, Intro to AI, Robotis and Perception",
+                    Computer Systems and Networks, Intro to Blockchain, Intro to AI, Robotics and Perception",
       honors: "Dean's List"
     },
     {
