@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Code, Camera, Palette, Zap, Bot, Cpu, Braces } from "lucide-react";
+import Image from "next/image";
 
 export default function About() {
   const skills = [
@@ -64,9 +65,11 @@ export default function About() {
           >
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-blue-400 to-purple-600 p-1">
               <div className="w-full h-full rounded-2xl bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
-                <img
+                <Image
                   src="/images/profile.jpeg"
                   alt="Bradley Cao"
+                  width={400}
+                  height={400}
                   className="w-full h-full object-cover rounded-2xl"
                 />
               </div>

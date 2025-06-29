@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { ExternalLink, Github, Code, Database, Globe, Smartphone } from "lucide-react";
+import Image from "next/image";
 
 export default function Engineering() {
   const projects = [
@@ -103,7 +104,8 @@ export default function Engineering() {
                 <div className="relative overflow-hidden bg-gradient-to-br from-blue-500 to-purple-600 h-48">
                   <div className="absolute inset-0 flex items-center justify-center">
                     {/* <Icon className="w-20 h-20 text-white opacity-50" /> */}
-                    <img
+                    <Image
+                      fill={true}
                       src={project.image}
                       alt={project.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
