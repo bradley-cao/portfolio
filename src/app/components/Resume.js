@@ -47,8 +47,21 @@ export default function Resume() {
       school: "Georgia Institute of Technology",
       location: "Atlanta, GA",
       period: "2024 - Present",
-      // honors: "Magna Cum Laude",
-      description: "Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
+      description: "Relevant coursework: Computer Systems, Data Structures and Algorithms, \
+                    Computer Systems and Networks, Intro to Blockchain"
+    },
+    {
+      degree: "Bachelor of Science in Computer Science",
+      school: "University of Maryland, College Park",
+      location: "College Park, MD",
+      period: "2023 - 2024",
+      description: "Relevant coursework: Algorithms, Organization of Programming Languages"
+    },
+    {
+      degree: "Advanced Studies Diploma",
+      school: "Thomas Jefferson High School for Science and Technology",
+      location: "Alexandria, VA",
+      period: "2019 - 2023",
     },
   ];
 
@@ -166,10 +179,10 @@ export default function Resume() {
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
                   <div>
                     <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-1">
-                      {edu.degree}
+                      {edu.school}
                     </h4>
                     <p className="text-blue-600 dark:text-blue-400 font-medium mb-1">
-                      {edu.school}
+                      {edu.degree}
                     </p>
                     <p className="text-gray-600 dark:text-gray-400 text-sm">
                       {edu.location}
