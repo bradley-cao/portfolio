@@ -69,9 +69,6 @@ export default function Resume() {
 
   // const certifications = [
   //   "AWS Certified Solutions Architect",
-  //   "Google Cloud Professional Developer",
-  //   "Adobe Certified Expert - Photoshop",
-  //   "Scrum Master Certification"
   // ];
 
   return (
@@ -87,9 +84,6 @@ export default function Resume() {
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">
             My <span>Resume</span>
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
-            A comprehensive overview of my professional journey, education, and achievements
-          </p>
           <a href="/resume.pdf" download className="inline-block mb-4">
             <button className="w-full flex items-center justify-center px-8 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white rounded-lg 
                            font-medium transition-colors shadow-lg hover:shadow-xl cursor-pointer">
