@@ -91,7 +91,8 @@ export default function Resume() {
             A comprehensive overview of my professional journey, education, and achievements
           </p>
           <a href="/resume.pdf" download className="inline-block mb-4">
-            <button className="relative px-8 py-3 text-white rounded-full font-medium transition-colors shadow-lg overflow-hidden border-2 border-blue-600 group cursor-pointer">
+            <button className="w-full flex items-center justify-center px-8 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white rounded-lg 
+                           font-medium transition-colors shadow-lg hover:shadow-xl cursor-pointer">
               <span className="relative z-10">Download PDF Resume</span>
               <span className="absolute left-0 top-0 h-full w-0 bg-blue-600 transition-all duration-300 group-hover:w-full z-0"></span>
             </button>
