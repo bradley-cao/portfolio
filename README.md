@@ -1,14 +1,21 @@
 # Portfolio Website
 
-🚧 **Work in Progress** 🚧
+This repo now includes a minimal Next.js app for Vercel deployment, plus the original
+static placeholder page.
 
-This is a temporary static site. The final version will be built with Next.js and Node.js.
+## Local development (Next.js)
 
-## How to view
+```bash
+npm install
+npm run dev
+```
 
-Open `index.html` in your browser.
+Open http://localhost:3000
 
----
+## Static placeholder
 
-**Migration note:**
-- This static version is a placeholder. The project will soon be migrated to a full-featured Next.js/Node.js stack.
+Open `index.html` in your browser if you want the original static version.
+
+## Deploy to Vercel
+
+Vercel will auto-detect the Next.js app from `package.json`.
