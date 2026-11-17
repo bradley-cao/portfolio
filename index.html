@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bradley Cao - Software Engineer</title>
+  <meta name="description" content="Bradley Cao is a softwre engineer interested in machine learning and deep tech">
+
+  <!-- Fonts: a classic book serif for everything, mono for small code bits. Swap freely. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-mark" aria-label="Bradley Cao — home">
+    <svg viewBox="0 0 36 36" aria-hidden="true">
+      <rect x="1" y="1" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2"/>
+      <text x="18" y="24.5" text-anchor="middle" font-family="Source Serif 4, Georgia, serif"
+            font-size="17" font-weight="700" fill="currentColor">BC</text>
+    </svg>
+  </a>
+  <nav class="tabs">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="writing.html">Writing</a>
+    <a href="resume.html">Résumé</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="intro">
+    <!-- Personal mark: a simple monogram. Replace with your own SVG or remove. -->
+    <h2 class="name">Bradley Cao</h2>
+    <p class="tagline">Software engineer. Distributed systems, compilers, and developer tools.</p>
+
+    <p>
+      I am a graduating computer science student at the Georgia Institute of Technology, with threads in 
+      Intelligence and Cybersecurity. My interests include machine learning and engineering-grounded software development.
+    </p>
+
+    <p>
+      I enjoy working with messy and complicated numberrs, data, and systems, and figuring out patterns and solutions within the noise.
+      I also am very passionate about developing meaningful and impactful systems for the world.
+    </p>
+
+    <p>
+        Always happy to chat about tech and/or other opportunities! Feel free to reach out at <a href="mailto:bradleycao@gmail.com">bradleycao@gmail.com</a>, or find me on
+        <a href="https://github.com/bradley-cao">GitHub</a> and <a href="https://www.linkedin.com/in/bradleycao/">LinkedIn</a>.
+      </p>
+    <p>Currently based in Washington DC :)</p>
+  </section>
+
+  <!-- ===================== Experience ===================== -->
+  <h3>Experience</h3>
+
+  <div class="rows">
+    <div class="row"><span><strong>Palantir Technologies</strong>, Forward Deployed Engineer</span><span class="when">January 2027</span></div>
+    <div class="row"><span><strong>SoloPulse Corp</strong>, Machine Learning Engineer Intern</span><span class="when">August 2026 - present</span></div>
+    <div class="row"><span><strong>Palantir Technologies</strong>, Forward Deployed Engineer Intern, USG</span><span class="when">May 2026 - August 2026</span></div>
+    <div class="row"><span><strong>SoloPulse Corp</strong>, Software Engineer Intern</span><span class="when">August 2025 - December 2025</span></div>
+  </div>
+  <p><a href="#">Full résumé (PDF)</a></p>
+
+
+  <!-- ===================== Education ===================== -->
+  <h3>Education</h3>
+
+  <div class="rows">
+    <div class="row"><span><strong>Georgia Institute of Technology</strong>, B.S. Computer Science</span><span class="when">May 2024 - Dec 2026</span></div>
+  </div>
+
+  <!-- ===================== Projects ===================== -->
+  <h3>Projects</h3>
+
+  <h4>Tidewater — a log-structured key-value store</h4>
+  <p class="meta-line">Rust · 2.1k stars · <a href="#">GitHub</a> · <a href="#">Design notes</a></p>
+  <p>
+    An embeddable LSM-tree store with lock-free memtables and tiered compaction.
+    Sustains 1.2M writes/sec on a single NVMe drive and is used in production by three companies.
+  </p>
+
+  <h4>quickbuild — incremental build cache</h4>
+  <p class="meta-line">Go · <a href="#">GitHub</a> · <a href="#">Talk</a></p>
+  <p>
+    A content-addressed remote cache for monorepo builds. Cut median CI time from 22 minutes to 6
+    across 400 engineers.
+  </p>
+
+  <!-- Replace placeholders with <img> or <video> elements -->
+  <div class="figures">
+    <figure><div class="placeholder"></div><figcaption>Before</figcaption></figure>
+    <figure><div class="placeholder"></div><figcaption>Diff</figcaption></figure>
+    <figure><div class="placeholder"></div><figcaption>After</figcaption></figure>
+  </div>
+
+  <h4>tinyc — a C subset compiler, for teaching</h4>
+  <p class="meta-line">OCaml · <a href="#">GitHub</a></p>
+  <p>
+    A ~3,000-line compiler from a C subset to x86-64, with a register allocator
+    and an accompanying course used by two universities.
+  </p>
+
+
+  <!-- ===================== Writing ===================== -->
+  <h3>Writing</h3>
+
+  <ul>
+    <li><a href="#"><em>Write amplification is a budget, not a bug</em></a> <span class="meta">— Oct 2026</span></li>
+    <li><a href="#"><em>What I learned caching 40 million build actions</em></a> <span class="meta">— Jun 2026</span></li>
+    <li><a href="#"><em>Fuzzing a storage engine on a laptop</em></a> <span class="meta">— Jan 2026</span></li>
+    <li><a href="#"><em>Notes on reading other people's code</em></a> <span class="meta">— Aug 2025</span></li>
+  </ul>
+
+  <!-- ===================== Talks / Open source ===================== -->
+  <h3>Talks &amp; open source</h3>
+
+  <ul>
+    <li><a href="#"><em>Compaction without tears</em></a>, Systems Conf 2026</li>
+    <li><a href="#"><em>Remote caching at monorepo scale</em></a>, BuildCon 2024</li>
+    <li>Contributor to <a href="#">RocksDB</a>, <a href="#">Bazel</a>, and <a href="#">tokio</a></li>
+  </ul>
+
+</main>
+
+<footer>
+  <hr class="footer-rule">
+  <nav>
+    <a href="#">Home</a><span class="sep">·</span>
+    <a href="#">Projects</a><span class="sep">·</span>
+    <a href="#">Writing</a><span class="sep">·</span>
+    <a href="#">Talks</a><span class="sep">·</span>
+    <a href="#">Résumé</a><span class="sep">·</span>
+    <a href="#">GitHub</a><span class="sep">·</span>
+    <a href="#">Contact</a>
+  </nav>
+  <p class="copy">© 2026 Bradley Cao</p>
+</footer>
+
+</body>
+</html>
